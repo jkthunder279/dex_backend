@@ -1,6 +1,6 @@
 # dex_backend
 It's just a basic implementation
-=> There is a login/register(Signup) feature to have identity of the person and store this info in database(MongoDB) return the user logged in and cokkies. 
+=> There is a login/register(Signup) feature to have identity of the person and store this info in database(MongoDB) return the user logged in and cookies. 
 
 Basic Working: The user places their bid/ask order, the order gets placed, and orders with similar price values of tokens will get matched through Redis sorted sets and matching algorithm. After the order is matched it will initiate an on-chain transaction and the tokens will be exchanged
 
